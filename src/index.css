@@ -1,8 +1,9 @@
 body {
   margin: 0;
   font-family: 'Overpass', sans-serif;
-  background: linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-  color: hsl(207, 13%, 34%);
+  background: linear-gradient(hsl(236, 9%, 66%), hsl(231, 7%, 79%));
+  color: white;
+  
 }
 
 header, footer {

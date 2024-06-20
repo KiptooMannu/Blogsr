@@ -1,6 +1,7 @@
 import React from 'react';
 import './hero.scss';
 import logo from '../../images/logo.svg';
+import wallpaper from '../../images/bg-pattern-intro-desktop.svg';
 
 const Hero = () => {
   return (
