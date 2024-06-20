@@ -1,0 +1,67 @@
+.additional-section {
+    padding: 50px 20px;
+    background-color: hsl(240, 100%, 99%);
+    color: hsl(207, 13%, 34%);
+    text-align: center;
+  
+  
+    .additional-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 120px;
+  
+      .free-open-simple,
+      .powerful-tooling {
+        max-width: 600px;
+        margin: 20px 0;
+        text-align: left;
+  
+        h3 {
+          font-family: 'Overpass', sans-serif;
+          font-weight: 600;
+          font-size: 24px;
+          margin-bottom: 20px;
+          color: hsl(208, 49%, 24%);
+        }
+  
+        p {
+          font-family: 'Overpass', sans-serif;
+          font-weight: 300;
+          font-size: 16px;
+        }
+      }
+    }
+  
+    .additional-images {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+  
+      .image-mobile {
+        display: block;
+        max-width: 100%;
+      }
+  
+      .image-desktop {
+        display: none;
+      }
+    }
+  
+    @media (min-width: 1440px) {
+      .additional-images {
+        .image-mobile {
+          display: none;
+        }
+  
+        .image-desktop {
+          display: block;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  .add{
+    display: flex;
+  }

@@ -3,6 +3,7 @@
   background-color: #fff;
   color: hsl(207, 13%, 34%);
   text-align: center;
+ 
 
   h2 {
     font-family: 'Overpass', sans-serif;
@@ -14,15 +15,9 @@
 
   .features-content {
     display: flex;
-    flex-direction: column;
-    gap: 40px;
+    gap: 400px;
 
-    .feature {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: left;
-
+ 
       .feature-image-mobile {
         display: block;
         max-width: 100%;
@@ -31,27 +26,38 @@
 
       .feature-image-desktop {
         display: none;
+        
       }
 
       .feature-text {
         max-width: 600px;
         margin: 0 auto;
+     
 
         h3 {
           font-family: 'Overpass', sans-serif;
           font-weight: 600;
           font-size: 24px;
-          color: hsl(208, 49%, 24%);
           margin-bottom: 20px;
+          color: hsl(208, 49%, 24%);
         }
 
         p {
           font-family: 'Overpass', sans-serif;
           font-weight: 300;
           font-size: 16px;
+          margin-bottom: 50px;
         }
-      }
+      
     }
+  }
+
+  .featuresW{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 120px;
+
   }
 
   @media (min-width: 1440px) {

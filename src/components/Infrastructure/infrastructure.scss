@@ -1,13 +1,18 @@
 .infrastructure {
   padding: 50px 20px;
-  background-color: hsl(237, 17%, 21%);
+  background-color: hsl(240, 100%, 99%);
   color: hsl(0, 0%, 100%);
   text-align: center;
+  display: flex;
+  background-color: hsl(237, 23%, 32%);
+  
+  
 
   h2 {
     font-family: 'Overpass', sans-serif;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 35px;
+    color: hsl(210, 20%, 90%);
     margin-bottom: 20px;
   }
 
@@ -18,59 +23,35 @@
     margin-bottom: 40px;
   }
 
-  .infrastructure-content {
+  .infrastructure-images {
     display: flex;
-    flex-direction: column;
-    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
 
-    .infrastructure-image-mobile {
+    .image-mobile {
       display: block;
       max-width: 100%;
-      margin-bottom: 20px;
     }
 
-    .infrastructure-image-desktop {
+    .image-desktop {
       display: none;
     }
-
-    .infrastructure-detail {
-      max-width: 600px;
-      margin: 0 auto;
-      text-align: left;
-
-      h3 {
-        font-family: 'Overpass', sans-serif;
-        font-weight: 600;
-        font-size: 24px;
-        margin-bottom: 20px;
-      }
-
-      p {
-        font-family: 'Overpass', sans-serif;
-        font-weight: 300;
-        font-size: 16px;
-      }
-    }
+  }
+  .story{
+    margin-top: 70px;
   }
 
   @media (min-width: 1440px) {
-    .infrastructure-content {
-      flex-direction: row;
-      justify-content: space-between;
-      gap: 40px;
-
-      .infrastructure-image-mobile {
+    .infrastructure-images {
+      .image-mobile {
         display: none;
       }
 
-      .infrastructure-image-desktop {
+      .image-desktop {
         display: block;
-        max-width: 45%;
-      }
-
-      .infrastructure-detail {
-        max-width: 45%;
-        margin: 0;
+        max-width: 100%;
       }
     }
   }

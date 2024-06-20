@@ -1,11 +1,12 @@
 import React from 'react';
 import './hero.scss';
+import logo from '../../images/logo.svg';
 
-const HeroSection = () => {
+const Hero = () => {
   return (
     <section className="hero-section">
       <header className="header">
-        <div className="logo">Blogr</div>
+        <div className="logo"><img src={logo} alt="Blogr Logo" /></div>
         <nav>
           <ul>
             <li>Product</li>
@@ -30,4 +31,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default Hero;
