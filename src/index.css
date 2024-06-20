@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: 'Overpass', sans-serif;
+  background: linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+  color: hsl(207, 13%, 34%);
+}
+
+header, footer {
+  background-color: hsl(240, 10%, 16%);
+  color: hsl(0, 0%, 100%);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+/* Global Media Queries */
+@media (max-width: 375px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    font-size: 16px;
+  }
+}

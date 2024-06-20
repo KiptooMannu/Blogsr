@@ -1,0 +1,132 @@
+.hero-section {
+  text-align: center;
+  background: linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  padding: 50px 20px;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+
+    .logo {
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      color: hsl(0, 0%, 100%);
+    }
+
+    nav ul {
+      display: flex;
+      gap: 20px;
+
+      li {
+        font-family: 'Overpass', sans-serif;
+        font-weight: 600;
+        color: hsl(0, 0%, 100%);
+      }
+    }
+
+    .auth-buttons {
+      button {
+        margin-left: 10px;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        font-family: 'Overpass', sans-serif;
+
+        &.login {
+          background-color: transparent;
+          color: hsl(0, 0%, 100%);
+        }
+
+        &.signup {
+          background-color: hsl(356, 100%, 66%);
+          color: hsl(0, 0%, 100%);
+        }
+      }
+    }
+  }
+
+  .hero-content {
+    margin-top: 50px;
+
+    h1 {
+      font-family: 'Overpass', sans-serif;
+      font-weight: 600;
+      font-size: 48px;
+      color: hsl(0, 0%, 100%);
+    }
+
+    p {
+      font-family: 'Overpass', sans-serif;
+      font-weight: 300;
+      font-size: 16px;
+      color: hsl(0, 0%, 100%);
+    }
+
+    .cta-buttons {
+      margin-top: 20px;
+
+      .start,
+      .learn {
+        padding: 10px 20px;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+
+        &.start {
+          background-color: hsl(356, 100%, 66%);
+          color: hsl(0, 0%, 100%);
+          margin-right: 10px;
+        }
+
+        &.learn {
+          background-color: hsl(355, 100%, 74%);
+          color: hsl(0, 0%, 100%);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 375px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+
+      .logo {
+        margin-bottom: 10px;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .auth-buttons {
+        button {
+          margin-left: 0;
+          margin-top: 10px;
+        }
+      }
+    }
+
+    .hero-content {
+      h1 {
+        font-size: 32px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      .cta-buttons {
+        .start,
+        .learn {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

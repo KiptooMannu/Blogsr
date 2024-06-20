@@ -1,0 +1,35 @@
+.footer {
+    padding: 50px 20px;
+    background-color: hsl(240, 10%, 16%);
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    color: hsl(0, 0%, 100%);
+  }
+  
+  .footer-content div {
+    flex: 1;
+  }
+  
+  .footer-content h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+  }
+  
+  .footer-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-content ul li {
+    margin: 10px 0;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: hsl(240, 2%, 79%);
+  }
+   
